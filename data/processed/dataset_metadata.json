@@ -1,0 +1,39 @@
+{
+    "dataset_name": "Car Price Prediction",
+    "train_shape": [
+        164,
+        63
+    ],
+    "test_shape": [
+        41,
+        63
+    ],
+    "numerical_features": [
+        "symboling",
+        "wheelbase",
+        "carlength",
+        "carwidth",
+        "carheight",
+        "curbweight",
+        "enginesize",
+        "boreratio",
+        "stroke",
+        "compressionratio",
+        "horsepower",
+        "peakrpm",
+        "citympg",
+        "highwaympg"
+    ],
+    "categorical_features": [
+        "fueltype",
+        "aspiration",
+        "doornumber",
+        "carbody",
+        "drivewheel",
+        "enginelocation",
+        "enginetype",
+        "cylindernumber",
+        "fuelsystem",
+        "carbrand"
+    ]
+}
