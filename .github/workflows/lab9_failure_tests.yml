@@ -1,0 +1,36 @@
+name: Lab 9 - Failure Injection & Resilience Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  resilience-testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-api.txt
+
+      - name: Run Chaos & Failure Injection Simulation
+        run: |
+          python src/simulate_data_corruption.py
+          python src/mlops_pipeline/10_failure_injection.py
+
+      - name: Verify Failure Handling & Error Artifacts
+        run: |
+          python -c "import os, json; assert os.path.exists('artifacts/failure_simulation_report.json'); assert os.path.exists('reports/failure_report.json'); print('[SUCCESS] Failure reports verified.')"

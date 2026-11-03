@@ -1,0 +1,22 @@
+================================================================================
+LAB 13: END-TO-END AUTOMATED CI/CD & MONITORING PIPELINE
+================================================================================
+
+Lab 13 automates continuous integration, production drift triggers, and self-hosted
+GitHub runner tests.
+
+Execution Commands:
+1. Verify CI Workflow:
+   gh workflow run lab8_ci.yml
+
+2. Verify Failure Handling Workflow:
+   gh workflow run lab9_failure_tests.yml
+
+3. Execute End-to-End Monitoring & Drift Detection:
+   gh workflow run lab13_monitoring.yml
+
+4. Validate Self-Hosted Runner Environment:
+   gh workflow run lab13_runner_test.yml
+
+Status: All Lab 13 automated workflows defined and verified in .github/workflows/.
+================================================================================

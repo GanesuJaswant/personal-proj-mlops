@@ -1,0 +1,36 @@
+================================================================================
+LAB 11: DOCKER & KUBERNETES CHEAT SHEET REFERENCE
+================================================================================
+
+--- DOCKER COMMANDS ---
+# Build container image
+docker build -t car-price-prediction-api:latest .
+
+# List local images
+docker images | grep car-price-prediction-api
+
+# Run container in background with port mapping
+docker run -d --name car-price-api -p 8000:8000 car-price-prediction-api:latest
+
+# Check container logs
+docker logs -f car-price-api
+
+# Execute bash inside container
+docker exec -it car-price-api /bin/sh
+
+# Stop and remove container
+docker stop car-price-api && docker rm car-price-api
+
+--- KUBERNETES COMMANDS ---
+# Apply all manifests
+kubectl apply -f k8s/
+
+# Get all resources in namespace
+kubectl get all -l app=car-price-api
+
+# Describe service
+kubectl describe service car-price-api-service
+
+# Delete all resources
+kubectl delete -f k8s/
+================================================================================

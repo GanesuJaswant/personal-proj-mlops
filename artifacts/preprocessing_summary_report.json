@@ -1,0 +1,44 @@
+{
+    "status": "SUCCESS",
+    "raw_shape": [
+        205,
+        25
+    ],
+    "train_features_shape": [
+        164,
+        63
+    ],
+    "test_features_shape": [
+        41,
+        63
+    ],
+    "numerical_columns": [
+        "symboling",
+        "wheelbase",
+        "carlength",
+        "carwidth",
+        "carheight",
+        "curbweight",
+        "enginesize",
+        "boreratio",
+        "stroke",
+        "compressionratio",
+        "horsepower",
+        "peakrpm",
+        "citympg",
+        "highwaympg"
+    ],
+    "categorical_columns": [
+        "fueltype",
+        "aspiration",
+        "doornumber",
+        "carbody",
+        "drivewheel",
+        "enginelocation",
+        "enginetype",
+        "cylindernumber",
+        "fuelsystem",
+        "carbrand"
+    ],
+    "preprocessor_saved": "C:\\Users\\prane\\OneDrive\\Desktop\\study_files\\mlops_car_price_prediction1\\models\\preprocessor.pkl"
+}

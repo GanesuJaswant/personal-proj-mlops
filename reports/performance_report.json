@@ -1,0 +1,30 @@
+{
+    "slices": [
+        {
+            "slice": "body_sedan",
+            "samples": 19,
+            "r2_score": 0.925,
+            "rmse": 2110.4
+        },
+        {
+            "slice": "body_hatchback",
+            "samples": 14,
+            "r2_score": 0.898,
+            "rmse": 2450.1
+        },
+        {
+            "slice": "engine_ohc",
+            "samples": 28,
+            "r2_score": 0.915,
+            "rmse": 2280.0
+        },
+        {
+            "slice": "luxury_tier",
+            "samples": 8,
+            "r2_score": 0.884,
+            "rmse": 2890.3
+        }
+    ],
+    "overall_r2": 0.9124,
+    "status": "SLICING_CRITERIA_SATISFIED"
+}

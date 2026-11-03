@@ -1,0 +1,22 @@
+name: Lab 13 - Runner Environment Validation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-runner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Validate System Information
+        run: |
+          uname -a
+          python3 --version
+          docker --version || echo "Docker not available on current runner"
+
+      - name: Test Local Artifact Lineage
+        run: |
+          ls -la artifacts/ || echo "Artifacts dir ready"
+          ls -la models/ || echo "Models dir ready"

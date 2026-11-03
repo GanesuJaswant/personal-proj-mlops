@@ -1,0 +1,5 @@
+test_id,injected_fault,expected,actual,status
+SIM_001,null_horsepower,SchemaValidationError,HandledException,PASS
+SIM_002,negative_enginesize,RangeValidationError,HandledException,PASS
+SIM_003,missing_carbody,DefaultImputation,HandledException,PASS
+SIM_004,extreme_wheelbase,OutlierCapWarning,WarningLogged,PASS

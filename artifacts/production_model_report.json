@@ -1,0 +1,23 @@
+{
+    "registry_status": "READY_FOR_DEPLOYMENT",
+    "model_lineage": {
+        "registered_name": "Car_Price_Production_Model",
+        "version": 1,
+        "current_stage": "Production",
+        "run_id": "a0ef50fa2ac74b7ba7a47f7e62c60a48",
+        "artifact_uri": "models:/m-dbb4296f23b043a1bec7ae25d2d040bc"
+    },
+    "performance_metrics": {
+        "r2_score": 0.9591587435864091,
+        "rmse": 1795.5982287432707,
+        "mae": 1246.5717469364417,
+        "mse": 3224172.9990659715
+    },
+    "hyperparameters": {
+        "n_estimators": "150",
+        "max_depth": "12",
+        "random_state": "42",
+        "model_family": "RandomForestRegressor"
+    },
+    "preprocessing_dependency": "models/preprocessor.pkl"
+}

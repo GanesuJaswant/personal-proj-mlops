@@ -1,0 +1,44 @@
+================================================================================
+LAB 12: DATA DRIFT, CONCEPT DRIFT & CONTINUOUS MONITORING FLOW
+================================================================================
+
+1. OVERVIEW
+   Lab 12 introduces continuous monitoring, drift detection algorithms (Kolmogorov-
+   Smirnov Test, Wasserstein Distance, Population Stability Index), inference logging,
+   and automated model retraining triggers.
+
+2. STEP-BY-STEP EXECUTION ORDER:
+   Step 1: Generate Evolved & Drifted Datasets
+     python src/mlops_pipeline/12_create_evolved_dataset.py
+     python src/mlops_pipeline/12_create_concept_drift_dataset.py
+
+   Step 2: Detect Feature & Data Drift
+     python src/mlops_pipeline/12_data_drift.py
+     python src/mlops_pipeline/12_drift_analysis.py
+
+   Step 3: Monitor Prediction Drift & API Performance
+     python src/mlops_pipeline/12_prediction_drift.py
+     python src/mlops_pipeline/12_prediction_monitoring.py
+     python src/mlops_pipeline/12_api_performance_monitoring.py
+
+   Step 4: Continuous Performance Tracking & Trend Analysis
+     python src/mlops_pipeline/12_concept_drift.py
+     python src/mlops_pipeline/12_performance_monitoring.py
+     python src/mlops_pipeline/12_performance_trend.py
+     python src/mlops_pipeline/12_request_history.py
+
+   Step 5: Automated Trigger & Model Retraining
+     python src/mlops_pipeline/12_monitor_trigger.py
+     python src/mlops_pipeline/12_create_updated_dataset.py
+     python src/mlops_pipeline/12_retrain_model.py
+     python src/mlops_pipeline/12_model_comparison.py
+     python src/mlops_pipeline/12_update_mlflow_registry.py
+
+3. ARTIFACTS GENERATED:
+   - data/monitoring/drift/evolved_data.csv
+   - data/monitoring/drift/evolved_labeled_data.csv
+   - data/monitoring/drift/post_drift_training_data.csv
+   - models/retrained_model_v2.pkl
+   - models/retrained_preprocessor_v2.pkl
+   - reports/performance_report.json
+================================================================================

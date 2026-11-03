@@ -1,25 +1,24 @@
-# Environments
+# Environments & OS
 venv/
 .venv/
 env/
 __pycache__/
 .ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+desktop.ini
+.DS_Store
+Thumbs.db
+$exclude
+$files
+$relative
+$root
+$segments
 
-# Ignore processed binary data files
-data/processed/*.npy
-
-# Ignore model binary artifacts
-models/*.pkl
-
-logs/
-outputs/*
-!outputs/validate_outputs.py
-
+# IDE
+.idea/
 .vscode/
 
-# Ignore MLflow tracking data and databases
+# MLflow tracking local run directories
 mlruns/
-mlflow.db
-
-# Ignore locally generated artifact plots and reports
-artifacts/

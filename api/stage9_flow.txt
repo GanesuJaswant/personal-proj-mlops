@@ -1,0 +1,21 @@
+================================================================================
+STAGE 9: FASTAPI SERVING & REAL-TIME INFERENCE LOGGING
+================================================================================
+
+1. Purpose:
+   Exposes high-performance RESTful API endpoints for the champion model, featuring
+   automated input schema validation (Pydantic), synchronous preprocessing, and
+   telemetry streaming to logs/inference/inference_log.jsonl.
+
+2. Endpoints:
+   - GET  /           : API discovery and status
+   - GET  /health     : Healthcheck endpoint for Docker / Kubernetes probes
+   - POST /predict    : Single item inference with latency & payload logging
+   - POST /batch-predict : Vectorized inference on multiple car items
+   - GET  /metrics    : Summary monitoring and model metadata
+
+3. Resilience & Security:
+   - Validates ranges and categorical values
+   - Recovers from unobserved brands via standard imputation
+   - Executes under non-root user in production Docker container
+================================================================================

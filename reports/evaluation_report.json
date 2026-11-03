@@ -1,0 +1,16 @@
+{
+    "model_name": "RandomForestRegressor_Candidate",
+    "evaluated_on": "test_dataset.npy (41 samples)",
+    "metrics": {
+        "r2_score": 0.9592,
+        "rmse": 1795.6,
+        "mae": 1246.57,
+        "mape": 9.16,
+        "explained_variance": 0.9602
+    },
+    "residuals": {
+        "mean_residual": -193.57,
+        "std_residual": 1785.13
+    },
+    "verdict": "EXCEEDS_BASELINE"
+}

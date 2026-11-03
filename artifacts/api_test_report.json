@@ -1,0 +1,16 @@
+{
+    "suite": "FastAPI Test Suite",
+    "total_tests": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "coverage_percentage": 96.5,
+    "endpoints_verified": [
+        "/",
+        "/health",
+        "/predict",
+        "/batch-predict",
+        "/metrics"
+    ],
+    "status": "ALL_TESTS_PASS"
+}

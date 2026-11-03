@@ -1,0 +1,12 @@
+{
+    "source_file": "C:\\Users\\prane\\OneDrive\\Desktop\\study_files\\mlops_car_price_prediction1\\data\\raw\\CarPrice_Assignment.csv",
+    "total_rows": 205,
+    "total_columns": 26,
+    "file_size_bytes": 26717,
+    "column_types": {
+        "numerical": 16,
+        "categorical": 10
+    },
+    "load_duration_ms": 12.88,
+    "status": "SUCCESS"
+}

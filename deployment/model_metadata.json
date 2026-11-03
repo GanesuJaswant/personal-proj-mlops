@@ -1,0 +1,9 @@
+{
+    "model_name": "Car_Price_Production_Model",
+    "stage": "Production",
+    "deployment_timestamp": "2026-11-03T07:55:45.647238+00:00",
+    "source_model": "models/car_price_prediction_model.pkl",
+    "source_preprocessor": "models/preprocessor.pkl",
+    "framework": "scikit-learn",
+    "model_type": "RandomForestRegressor"
+}

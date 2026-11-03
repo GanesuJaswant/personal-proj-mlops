@@ -1,0 +1,13 @@
+{
+    "test_type": "Pipeline Chaos & Error Injection",
+    "total_corrupted_inputs": 10,
+    "gracefully_rejected": 10,
+    "uncaught_crashes": 0,
+    "fault_types": [
+        "missing_column",
+        "type_mismatch",
+        "extreme_outlier",
+        "null_target"
+    ],
+    "verdict": "FAULT_TOLERANT"
+}

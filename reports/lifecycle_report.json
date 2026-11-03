@@ -1,0 +1,11 @@
+{
+    "model_name": "Car_Price_Production_Model",
+    "champion_version": 1,
+    "champion_r2": 0.9124,
+    "challenger_version": 1,
+    "challenger_r2": 0.9124,
+    "promoted": true,
+    "active_production_version": 1,
+    "lifecycle_action": "PROMOTE_TO_PRODUCTION",
+    "audit_trail": "Quality gate cleared; model promoted to active Production status."
+}

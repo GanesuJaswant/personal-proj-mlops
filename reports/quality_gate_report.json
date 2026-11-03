@@ -1,0 +1,27 @@
+{
+    "gate_name": "Production Promotion Quality Gate",
+    "criteria": [
+        {
+            "rule": "r2_score >= 0.80",
+            "value": 0.9592,
+            "passed": true
+        },
+        {
+            "rule": "rmse <= 3500.0",
+            "value": 1795.6,
+            "passed": true
+        },
+        {
+            "rule": "mae <= 2500.0",
+            "value": 1246.57,
+            "passed": true
+        },
+        {
+            "rule": "leakage_check == PASS",
+            "value": "PASS",
+            "passed": true
+        }
+    ],
+    "all_gates_passed": true,
+    "verdict": "QUALIFIED_FOR_DEPLOYMENT"
+}

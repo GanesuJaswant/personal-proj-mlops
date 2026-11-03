@@ -1,0 +1,11 @@
+{
+    "pipeline_name": "Production Car Price Pipeline",
+    "execution_1_r2": 0.9124589,
+    "execution_2_r2": 0.9124589,
+    "r2_difference": 0.0,
+    "execution_1_rmse": 2341.502,
+    "execution_2_rmse": 2341.502,
+    "rmse_difference": 0.0,
+    "deterministic_status": true,
+    "status": "VERIFIED_DETERMINISTIC"
+}

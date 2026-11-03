@@ -1,0 +1,3 @@
+model,mae,mse,rmse,r2_score
+DecisionTreeRegressor,2280.45,12450890.1,3528.58,0.812
+RandomForestRegressor,1582.4,5482622.25,2341.5,0.912

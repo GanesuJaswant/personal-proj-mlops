@@ -1,0 +1,15 @@
+MLOPS PIPELINE LIFECYCLE STAGES:
+--------------------------------------------------------------------------------
+Stage 01: Raw Data Loading & Ingestion Integrity Verification
+Stage 02: Input Schema Validation, Type Checking & Null Checks
+Stage 03: Feature Preprocessing, Scaling & One-Hot Encoding Pipelines
+Stage 04: Processed Output Validation & Data Leakage Prevention Checks
+Stage 05: Experiment Tracking, Hyperparameter Logging & Model Registry
+Stage 06: Model Evaluation, Residual Analysis & Diagnostic Plots
+Stage 07: Automated Quality Gate Evaluation
+Stage 08: Champion-Challenger Lifecycle Governance & Production Promotion
+Stage 09: Production API Serving & Inference Logging
+Stage 10: Failure Injection, Edge Case Testing & Chaos Engineering
+Stage 11: Docker Containerization & Kubernetes Orchestration
+Stage 12: Continuous Drift Monitoring & Automated Retraining Triggers
+Stage 13: End-to-End Automated CI/CD & Self-Hosted Runner Tests

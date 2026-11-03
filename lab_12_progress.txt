@@ -1,0 +1,8 @@
+[x] Task 12.1: Establish baseline distributions for features and predictions
+[x] Task 12.2: Implement synthetic data & concept drift generation scripts
+[x] Task 12.3: Build statistical KS-test and PSI data drift monitoring routines
+[x] Task 12.4: Deploy inference logging middleware (logs/inference/inference_log.jsonl)
+[x] Task 12.5: Build prediction drift detector and latency telemetry reporter
+[x] Task 12.6: Implement performance degradation alert monitor
+[x] Task 12.7: Author automated retraining trigger pipeline
+[x] Task 12.8: Validate Champion vs Challenger retrained model v2 in MLflow Registry

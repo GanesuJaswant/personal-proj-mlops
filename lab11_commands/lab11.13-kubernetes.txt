@@ -1,0 +1,29 @@
+================================================================================
+LAB 11.13: KUBERNETES DEPLOYMENT & VERIFICATION COMMANDS
+================================================================================
+
+# 1. Cluster Status & Nodes
+kubectl get nodes
+kubectl cluster-info
+
+# 2. Deploy API and Service
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+
+# 3. Check Rollout & Pod Status
+kubectl rollout status deployment/car-price-api-deployment
+kubectl get pods -l app=car-price-api -o wide
+kubectl get deployments
+kubectl get svc car-price-api-service
+
+# 4. Port Forwarding for Local Verification
+kubectl port-forward svc/car-price-api-service 8080:80
+
+# 5. Pod Logs & Troubleshooting
+kubectl logs -l app=car-price-api --tail=50
+kubectl describe deployment car-price-api-deployment
+
+# 6. Scaling & Updates
+kubectl scale deployment/car-price-api-deployment --replicas=3
+kubectl rollout restart deployment/car-price-api-deployment
+================================================================================

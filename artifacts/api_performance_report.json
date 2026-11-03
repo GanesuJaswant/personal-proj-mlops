@@ -1,0 +1,14 @@
+{
+    "endpoint": "/predict",
+    "total_requests_tested": 500,
+    "concurrency": 10,
+    "metrics": {
+        "latency_p50_ms": 12.4,
+        "latency_p95_ms": 28.6,
+        "latency_p99_ms": 45.2,
+        "mean_latency_ms": 14.8,
+        "throughput_req_per_sec": 345.2,
+        "error_rate_percentage": 0.0
+    },
+    "status": "PASSED_LATENCY_SLA"
+}
