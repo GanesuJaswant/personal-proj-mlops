@@ -1,6 +1,6 @@
 {
     "status": "DEPLOYED",
-    "timestamp": "2026-11-03T07:55:45.647966+00:00",
+    "timestamp": "2026-11-09T05:56:42.208521+00:00",
     "deployment_path": "C:\\Users\\prane\\OneDrive\\Desktop\\study_files\\mlops_car_price_prediction1\\deployment",
     "model_file": "C:\\Users\\prane\\OneDrive\\Desktop\\study_files\\mlops_car_price_prediction1\\deployment\\model.pkl",
     "preprocessor_file": "C:\\Users\\prane\\OneDrive\\Desktop\\study_files\\mlops_car_price_prediction1\\deployment\\preprocessor.pkl",

@@ -1,59 +1,59 @@
 {
-    "timestamp": "2026-11-03T07:55:45.658762+00:00",
+    "timestamp": "2026-11-09T05:56:42.215562+00:00",
     "stages": [
         {
             "stage": "01_load_data",
             "script": "src/mlops_pipeline/01_load_data.py",
             "status": "SUCCESS",
-            "duration_s": 1.304
+            "duration_s": 0.827
         },
         {
             "stage": "02_validate_data",
             "script": "src/mlops_pipeline/02_validate_data.py",
             "status": "SUCCESS",
-            "duration_s": 1.218
+            "duration_s": 1.206
         },
         {
             "stage": "03_preprocessing",
             "script": "src/mlops_pipeline/03_preprocessing.py",
             "status": "SUCCESS",
-            "duration_s": 4.766
+            "duration_s": 2.151
         },
         {
             "stage": "04_validate_outputs",
             "script": "src/mlops_pipeline/04_validate_outputs.py",
             "status": "SUCCESS",
-            "duration_s": 0.378
+            "duration_s": 0.25
         },
         {
             "stage": "05_train_registry",
             "script": "src/mlops_pipeline/05_train_registry.py",
             "status": "SUCCESS",
-            "duration_s": 2601.894
+            "duration_s": 6.589
         },
         {
             "stage": "06_model_evaluation",
             "script": "src/mlops_pipeline/06_model_evaluation.py",
             "status": "SUCCESS",
-            "duration_s": 5.591
+            "duration_s": 2.198
         },
         {
             "stage": "07_quality_gate",
             "script": "src/mlops_pipeline/07_quality_gate.py",
             "status": "SUCCESS",
-            "duration_s": 0.098
+            "duration_s": 0.079
         },
         {
             "stage": "08_automate_lifecycle",
             "script": "src/mlops_pipeline/08_automate_lifecycle.py",
             "status": "SUCCESS",
-            "duration_s": 5.368
+            "duration_s": 3.501
         },
         {
             "stage": "11_prepare_deployment",
             "script": "src/mlops_pipeline/11_prepare_deployment.py",
             "status": "SUCCESS",
-            "duration_s": 0.133
+            "duration_s": 0.088
         }
     ],
     "overall_status": "SUCCESS"
