@@ -20,5 +20,17 @@ $segments
 .idea/
 .vscode/
 
+# Documents, Papers, Presentations, and Archives
+*.docx
+*.doc
+*.pdf
+*.ppt
+*.pptx
+*.zip
+reports/*.docx
+reports/*.pdf
+reports/*.zip
+reports/ieee_latex/
+
 # MLflow tracking local run directories
 mlruns/
